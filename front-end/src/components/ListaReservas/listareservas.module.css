@@ -1,0 +1,79 @@
+.minhasReservas{
+    width: 100%;
+    height: 86vh;
+    background:  rgb(175, 177, 202);
+}
+
+.minhasReservas h2{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center; 
+    font-size: 3rem;
+    color: white;
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+}   
+
+.listaReservas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    background: rgb(200, 202, 224);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.sadReserva{
+    width: 6%;
+    height: 6%;
+}
+
+.semReservaHome{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.semReserva{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.semReserva p{
+    padding-right: 1rem;
+}
+
+.retornoHome{
+    margin-top: 5rem;
+}
+
+.retornoHome a{
+    text-decoration: none;
+    color: white;
+    background-color: #c2185b;
+    padding: 15px;
+    border-radius: 5px;
+}
